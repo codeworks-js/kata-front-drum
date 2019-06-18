@@ -9,6 +9,8 @@ Edit the `script` tag in `index.html` to make sounds when you use keys from q to
 It should also animate the letter when you strike it whith the css class `.playing` and remove it right after it finishes to add a feeling of STRIKING something.
 Try to coordinate the removal of the `.playing` class so that you can change the transition time in the css.
 
+Make it so that you can spam sounds without an horrible feeling, because drummers have spasms and want everybody to know it.
+
 The objectif of this kata is to do 100% native js to stay true to our Bio label.
 
 ## Knowledge
@@ -21,3 +23,5 @@ The objectif of this kata is to do 100% native js to stay true to our Bio label.
 ## Tips
 
 `data-*` attributes are custom attributes.
+
+Listen to the `keydown` event in the document.
